@@ -1,0 +1,32 @@
+{
+  "nodes": [
+    {"id": "ye", "group": 1},
+    {"id": "nishant", "group": 1},
+    {"id": "wayne", "group": 1},
+    {"id": "tev", "group": 2},
+    {"id": "evgeniy", "group": 2},
+    {"id": "marcel", "group": 3},
+    {"id": "tobias", "group": 4},
+    {"id": "sousan", "group": 4},
+    {"id": "kandhasamy", "group": 2},
+    {"id": "arseniy", "group": 3}
+
+
+  ],
+  "links": [
+   
+    {"source": "nishant", "target": "ye", "weight": 3},
+    {"source": "nishant", "target": "wayne", "weight": 3},
+    {"source": "wayne","target":"evgeniy","weight":1},
+    {"source": "wayne","target":"marcel","weight":1},
+    {"source": "wayne","target":"nishant","weight":1},
+    {"source": "wayne","target":"tobias","weight":1},
+    {"source": "evgeniy","target":"tev","weight":3},
+    {"source": "evgeniy","target":"kandhasamy","weight":3},
+    {"source": "marcel","target":"arseniy","weight":3},
+    {"source": "tobias","target":"sousan","weight":3}
+
+
+    
+  ]
+}
